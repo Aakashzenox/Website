@@ -1,6 +1,6 @@
 .college-name{
     /* Change Text bg color */
-    background-color: lightblue;
+    background-color: #add8e6;
 
     /* Change Text alignment */
     text-align: center;
@@ -21,8 +21,23 @@
 
     /* Change Text transform LOWER*/
     text-transform: uppercase;
+
+    /* Change Text shadow */
     text-shadow: 2px 2px 5px gray;
-}
-margin{
-    margin: 20px;
+
+    /* Change Border */
+    border: 2px solid #add8e6;
+
+    /* Change Border radius */
+    border-radius: 10px;
+
+    /* Change Margin gap between 4 sides*/
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    /* Change Padding gap between 4 sides*/
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

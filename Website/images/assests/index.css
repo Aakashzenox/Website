@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2{
+    text-align: left;
+    
+}
+
+nav a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+     display: flex;
+    justify-content: center;
+    margin: 3px;
+   
+}
+
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(59, 59, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    transition: 0.3sec;
+}
+button:hover{
+    transform: matrix(1.15);
+    background-color: yellowgreen;
+     box-shadow: 0 8px 20px rgba(108, 92, 231, 0.35);
+     cursor: pointer; 
+  border-radius: 80%;
+
+}
+button:active {
+  transform: scale(0.95);
+   transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+h1{
+    margin-left: 10px;
+}

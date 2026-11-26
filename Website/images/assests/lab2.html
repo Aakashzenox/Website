@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lab2.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form class="form-card">
+        <h1>Registration Form</h1>
+        <p>Fill in your details below</p>
+        <div class="label">
+            <label for="title"><b>Full Name</b> <span class="text-danger">*</span></label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required />
+        </div>
+        <div>
+            <label for="title"><b>Password</b> <span class="text-danger">*</span></label>
+            <input type="text" id="password" placeholder="Enter a strong password" required />
+        </div>
+        <div>
+            <label for="title"><b>Address</b> <span class="text-danger">*</span></label>
+            <input type="text" id="address" placeholder="Enter your full address" required />
+        </div>
+        <div>
+            <label for="title"><b>District</b> <span class="text-danger">*</span></label>
+            <select id="district">
+                Select District
+                <option value="" selected disabled>Select District</option>
+                <option value="rupandhei">Rupandhei</option>
+                <option value="kathmandu">Kathmandu</option>
+                <option value="bhaktapur">Bhaktapur</option>
+            </select>
+        </div>
+        <div>
+            <label for="title"><b>Date of Birth</b> <span class="text-danger">*</span></label>
+            <input type="date" id="dob" placeholder="MM/DD/YYYY" required />
+        </div>
+        <fieldset><span class="legend">Gender<span class="text-danger">*</span>
+                <div class="options">
+                    <label class="options"><input type="radio" vlaue="male" name="gender"><span>Male</span></label>
+                    <label class="options"> <input type="radio" value="female" name="gender"><span>Female</span></label>
+                </div>
+        </fieldset>
+
+        <fieldset><span class="legend">Hobbies<span class="text-danger">*</span>
+                <div class="options">
+                    <label class="options"><input type="checkbox" value="chess" name="sports"><span>Chess</span></label>
+                    <label class="options"><input type="checkbox" value="tabletennis"
+                            name="sports"><span>Table-Tennis</span></label>
+                    <label class="options"> <input type="checkbox" value="reading"
+                            name="sports"><span>Reading</span></label>
+                </div>
+        </fieldset>
+        <div>
+            <label for="title"><b>Message</b></label>
+            <textarea id="message" placeholder="Enter your Message..."></textarea>
+        </div>
+        <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

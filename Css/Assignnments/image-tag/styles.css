@@ -1,0 +1,13 @@
+h1{
+    text-decoration: underline; 
+    text-align: center;
+    color: blue; 
+}
+ul, li {
+    font-style: italic;
+    color: green;
+    text-align: center;
+    text-decoration: bold;
+    align-items: center;
+    
+}

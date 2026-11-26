@@ -1,0 +1,80 @@
+/* For body */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffffff;  
+}
+
+
+/* Heading H1 */
+
+h1{
+    margin-top: 40px;
+}
+
+/* Container */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+.box{
+    width: 280px;
+    padding: 20px;
+    color: WHITE;
+    background-color: royalblue;
+    border-radius: 8px;
+}  
+
+.box1{
+    transition: background-color 0.5s;
+}
+
+.box1:hover{
+    background-color: pink;
+}
+
+.box2{
+    transition: transform 0.5s;
+}
+
+.box2:hover{
+    transform: scale(1.1);
+    border-radius:5%;
+
+}
+
+.box3{
+    transition: transform 10s;
+
+}
+.box3:hover{
+    transform: rotate(330deg);
+}
+.box4{
+    transition: transform 1s;
+
+}
+.box4:hover{
+    transform: translateY(-500px);
+    transform: translatex(500px);
+}
+button{
+    color: aliceblue;
+    padding: 25px;
+    width: 200px;
+    font-size: larger;
+    background-color: royalblue;
+    transition: background 0.3s ease;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+button:hover{
+    background-color: green;
+    transform:scale(0.9);
+    border-radius: none;
+}
